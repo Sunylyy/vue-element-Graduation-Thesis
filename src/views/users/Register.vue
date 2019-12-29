@@ -6,7 +6,7 @@
     <div class="register-wrapper" v-show="!showLoading">
       <img :src="imgUrl" alt="" width="100%" height="100%">
       <div id="register">
-        <p class="title">Vue-Element-Demo</p>
+        <p class="title">企业后台注册</p>
         <el-form
           :model="ruleForm2"
           status-icon
@@ -290,7 +290,7 @@ export default {
   width: 160px;
 }
 .login:hover {
-  color: #2c2fd6;
+  color: #7da9c7;
 }
 .code >>> .el-form-item__content {
   display: flex;

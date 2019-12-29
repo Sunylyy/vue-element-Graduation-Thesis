@@ -2,7 +2,7 @@
   <div class="header">
     <div class="logo" :class="{'is-active':isActive}">
       <img src="@/assets/logo.png" alt="" height="30px">
-      VueEleDemo
+      企业后台
     </div>
     <div class="navbar">
       <div class="btn" :class="{'is-active':isActive}" @click="handleMenu">
@@ -64,11 +64,11 @@ export default {
     width 100%
     height 50px
     display flex
-    background #36a9e1
+    background #666666
     .logo
       width 200px
       height 50px
-      background #1e8fc6
+      background #666666
       color #fff
       text-indent 15px
       font-size 18px

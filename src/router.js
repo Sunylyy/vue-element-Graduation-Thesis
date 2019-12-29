@@ -51,7 +51,7 @@ const router = new Router({
           name: 'Dashboard',
           component: Dashboard,
           meta: {
-            breadcrumb: 'dashboard',
+            breadcrumb: 'three.js',
             title: 'dashboard',
             requireLogin: true
           }

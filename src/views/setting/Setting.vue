@@ -1,6 +1,6 @@
 <template>
   <div class="setting">
-    <h1 class="title">setting</h1>
+    <h1 class="title">设置</h1>
     <el-table
       :data="tableData"
       style="width: 100%">

@@ -6,7 +6,7 @@
     <div class="login-wrapper" v-show="!showLoading">
       <img :src="imgUrl" alt="" width="100%" height="100%">
       <div class="login">
-        <p class="title">Vue-Element-Demo</p>
+        <p class="title">企业后台登录</p>
         <el-form
           :model="ruleForm"
           status-icon
@@ -185,7 +185,7 @@ export default {
   display: inline-block;
 }
 .register:hover {
-  color: #2c2fd6;
+  color:  #7da9c7;
 }
 @media (max-width: 768px) {
   .login {
